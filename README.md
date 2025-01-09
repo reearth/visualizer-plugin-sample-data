@@ -9,6 +9,4 @@ This repository hosts sample geospatial data files for development and testing p
 
 ## Usage
 Access files via the following URLs:
-- [World GeoJSON](https://yourproject.netlify.app/geojson/world.json)
-- [Example CZML](https://yourproject.netlify.app/czml/example.czml)
-- [Regions KML](https://yourproject.netlify.app/kml/regions.kml)
+- [kashiwa_city_shelter](https://reearth.github.io/visualizer-plugin-sample-data/public/geojson/12217_kashiwa-shi_city_2020_shelter.geojson)
