@@ -6,7 +6,7 @@
   },
   {
     "id": "polygon",
-    "name": "3D Polygon",
+    "name": "Example 3D Polygon",
     "polygon": {
       "positions": {
         "cartographicDegrees": [
