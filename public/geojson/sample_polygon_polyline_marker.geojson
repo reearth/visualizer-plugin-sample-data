@@ -5,6 +5,14 @@
       "type": "Feature",
       "properties": {},
       "geometry": {
+        "coordinates": [-101.27439276383353, 20.137482229394365],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
         "coordinates": [
           [
             [-115.85997310600823, 43.86886906431593],
@@ -15,6 +23,17 @@
           ]
         ],
         "type": "Polygon"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [-96.47503712992075, 30.828483997550663],
+          [-80.68942638556867, 30.016289811840608]
+        ],
+        "type": "LineString"
       }
     }
   ]
