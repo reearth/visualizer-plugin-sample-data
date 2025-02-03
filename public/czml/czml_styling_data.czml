@@ -1,0 +1,43 @@
+[
+  {
+    id: "document",
+    name: "CZML Styling Example",
+    version: "1.0"
+  },
+  {
+    id: "marker",
+    name: "CZML Point",
+    position: {
+      cartographicDegrees: [139.700, 35.8309591, 0]
+    },
+    point: {}
+  },
+  {
+    id: "polyline",
+    name: "CZML Line",
+    polyline: {
+      positions: {
+        cartographicDegrees: [
+          139.700, 35.7833277, 0,
+          139.700, 35.7507895, 0
+        ]
+      },
+      width: 5,
+      clampToGround: true
+    }
+  },
+  {
+    id: "polygon",
+    name: "CZML Polygon",
+    polygon: {
+      positions: {
+        cartographicDegrees: [
+          139.680, 35.7109591, 0,
+          139.700, 35.7300069, 0,
+          139.720, 35.6900069, 0,
+          139.680, 35.7109591, 0
+        ]
+      }
+    }
+  }
+  ]
