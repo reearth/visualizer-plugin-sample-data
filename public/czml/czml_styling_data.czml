@@ -23,7 +23,8 @@
         ]
       },
       width: 5,
-      clampToGround: true
+      clampToGround: true,
+      "arcType": "GEODESIC"
     }
   },
   {
@@ -37,7 +38,8 @@
           139.720, 35.6900069, 0,
           139.680, 35.7109591, 0
         ]
-      }
+      },
+      "arcType": "GEODESIC"
     }
   }
   ]
