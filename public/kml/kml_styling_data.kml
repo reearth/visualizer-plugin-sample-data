@@ -30,20 +30,27 @@
     <Placemark>
       <styleUrl>#pointStyle</styleUrl>
       <Point>
+        <altitudeMode>clampToGround</altitudeMode>
         <coordinates>139.800,35.8309591,0</coordinates>
       </Point>
     </Placemark>
 
     <Placemark>
+      <name>Line Feature</name>
       <styleUrl>#lineStyle</styleUrl>
       <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
         <coordinates>139.800,35.7833277,0 139.800,35.7507895,0</coordinates>
       </LineString>
     </Placemark>
 
     <Placemark>
+      <name>Polygon Feature</name>
       <styleUrl>#polygonStyle</styleUrl>
       <Polygon>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
         <outerBoundaryIs>
           <LinearRing>
             <coordinates>139.780,35.7109591,0 139.800,35.7300069,0 139.820,35.6900069,0 139.780,35.7109591,0</coordinates>
