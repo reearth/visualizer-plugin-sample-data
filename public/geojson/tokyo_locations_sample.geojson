@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo Tower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.7454, 35.6586]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo Skytree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8107, 35.7101]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo Disneyland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.8813, 35.6329]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shinjuku Gyoen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.71, 35.6851]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shibuya Crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.7003, 35.6595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ghibli Museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.5704, 35.6962]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Odaiba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.7756, 35.6247]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo Metropolitan Government Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.6917, 35.6896]
+      }
+    }
+  ]
+}
