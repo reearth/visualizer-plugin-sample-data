@@ -22,6 +22,8 @@ Access files via the following URLs:
 ## File Description
 
 - `.._headers`: Headers configuration file
+- CSS files: Styling for visual elements
+- CSV files: Tabular data for visualization
 - GeoJSON files: Geographic data including sample Tokyo locations
 - CZML files: Include arcType definitions for polyline and polygon features
 - GLB files: 3D scan sample data
