@@ -25,17 +25,9 @@ h3 {
   font-size: 20px;
 }
 
-p {
-  margin: 0 0 12px 0;
-}
-
 /* Background Colors */
 .primary-background {
   background-color: #ffffff;
-}
-
-.secondary-background {
-  background-color: #eeeeee;
 }
 
 /* Buttons */
