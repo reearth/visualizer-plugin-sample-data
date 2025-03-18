@@ -78,6 +78,18 @@ button {
   background-color: #e6e6e6;
 }
 
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Button layout */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 /* Form Elements */
 .input {
   width: 100%;
@@ -147,13 +159,6 @@ li {
   align-items: center;
   gap: 10px;
   margin-bottom: 16px;
-}
-
-/* Button layouts */
-.button-container {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
 }
 
 /* Utility Classes */
