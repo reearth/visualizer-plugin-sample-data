@@ -160,3 +160,8 @@ li {
 .text-center {
   text-align: center;
 }
+
+.invisible {
+  visibility: hidden;
+  opacity: 0;
+}
