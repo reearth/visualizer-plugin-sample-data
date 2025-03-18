@@ -31,7 +31,7 @@ h3 {
 }
 
 /* Buttons */
-.btn {
+button {
   display: inline-block;
   padding: 8px 16px;
   border-radius: 4px;
@@ -149,6 +149,13 @@ li {
   align-items: center;
   gap: 10px;
   margin-bottom: 16px;
+}
+
+/* Button layouts */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* Utility Classes */
