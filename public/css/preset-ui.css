@@ -1,6 +1,11 @@
 /* Plugin Playground Presets Generic Styling */
 
 /* Base & Typography */
+
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   font-family: Arial, sans-serif;
@@ -56,7 +61,7 @@ button {
 }
 
 .btn-secondary:active {
-  background-color: rgba(0, 123, 255, 0.1);
+  background-color: #e6f0ff;
 }
 
 .btn-danger {
@@ -83,6 +88,13 @@ button:disabled {
   cursor: not-allowed;
 }
 
+/* Icon */
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 /* Button layout */
 .button-container {
   display: flex;
@@ -91,20 +103,19 @@ button:disabled {
 }
 
 /* Form Elements */
-.input {
+input {
   width: 100%;
   padding: 8px 12px;
   border: 1px solid #cccccc;
   border-radius: 4px;
   outline: none;
-  box-sizing: border-box;
 }
 
-.input:focus {
+input:focus {
   border-color: #007bff;
 }
 
-.input::placeholder {
+input::placeholder {
   color: #999999;
 }
 
@@ -119,10 +130,17 @@ li {
   margin: 8px 0;
   padding: 8px 12px;
   border-radius: 4px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
+}
+
+.styled-list-item {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+/* Small Text Utility */
+.small-text {
+  font-size: 12px;
+  color: #666666;
 }
 
 /* Info Sections */
@@ -140,7 +158,6 @@ li {
   background: #f9f9f9;
   padding: 10px;
   border-radius: 4px;
-  margin-top: 8px;
   font-size: 12px;
   line-height: 1.4;
 }
@@ -158,7 +175,19 @@ li {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-bottom: 16px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 /* Utility Classes */
@@ -166,7 +195,47 @@ li {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 .invisible {
   visibility: hidden;
   opacity: 0;
+}
+
+/* Spacing Utilities */
+.mt-8 {
+  margin-top: 8px;
+}
+.mt-16 {
+  margin-top: 16px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.my-8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.mx-8 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.p-8 {
+  padding: 8px;
+}
+.p-16 {
+  padding: 16px;
+}
+.px-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
